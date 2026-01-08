@@ -1,0 +1,13 @@
+[project]
+name = "stranger-beers-matching-service"
+version = "0.1.0"
+description = "Matching service for pairing Stranger Beers participants"
+requires-python = ">=3.11"
+dependencies = [
+    "stranger-beers-shared",
+    "stranger-beers-db",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

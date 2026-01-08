@@ -1,0 +1,13 @@
+[project]
+name = "stranger-beers-comms-service"
+version = "0.1.0"
+description = "Communications service for WhatsApp and email notifications"
+requires-python = ">=3.11"
+dependencies = [
+    "stranger-beers-shared",
+    "stranger-beers-db",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
