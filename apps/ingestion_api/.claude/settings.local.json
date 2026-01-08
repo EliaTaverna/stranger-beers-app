@@ -8,7 +8,8 @@
       "Bash(timeout 5 uvicorn:*)",
       "Bash(nslookup:*)",
       "Bash(timeout 8 uvicorn:*)",
-      "Bash(\"C:\\Users\\User\\Downloads\\ngrok-v3-stable-windows-amd64\\ngrok.exe\" config add-authtoken 36vvctN04rRfsZdylQAN05Gy5vf_6uTfiQhjqAstzEpsweXrU)"
+      "Bash(\"C:\\Users\\User\\Downloads\\ngrok-v3-stable-windows-amd64\\ngrok.exe\" config add-authtoken 36vvctN04rRfsZdylQAN05Gy5vf_6uTfiQhjqAstzEpsweXrU)",
+      "Bash(gh auth status:*)"
     ]
   }
 }
